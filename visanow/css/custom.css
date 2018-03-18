@@ -1,0 +1,150 @@
+/*Imigration News & Insights Form Styling*/
+
+.fix-height .widget-detail .gform_wrapper h3.gform_title{
+	font-size:14px;
+	margin:0 0 8px;
+	font-weight:700;
+	line-height:26px;
+}
+.widget-detail .gform_wrapper{
+	margin:0;
+	max-width:100%;
+}
+
+.widget-detail .gform_wrapper .gform_heading {
+	margin-bottom:0;
+	width:100%;
+}
+
+.widget-detail .gform_body {
+	float:none;
+	width:100%;
+}
+.widget-detail .gform_wrapper .top_label .gfield_label{
+	margin:0;
+	font-weight:400;
+	line-height:normal;
+	display:block;
+}
+body .widget-detail .gform_wrapper label.gfield_label + div.ginput_container{
+	margin:0;
+}
+.widget-detail .gform_wrapper .top_label input.medium, .widget-detail .gform_wrapper .top_label select.medium {
+	width:100%;
+	padding:0;
+}
+/* .widget-detail .gform_wrapper ul.top_label li:nth-of-type(3) {
+	margin-bottom:131px
+} */
+.widget-detail .gform_wrapper .gform_footer {
+	padding:0;
+	margin:0;
+}
+
+.widget-detail .gform_wrapper div.validation_error {
+    border-bottom: 1px solid #790000;
+    border-top: 1px solid #790000;
+    clear: both;
+    color: #790000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: -25px;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.widget-detail .gform_wrapper ul.top_label li.gfield.gfield_error:nth-of-type(3) { margin-bottom:65px !important;}
+.widget-detail .gform_wrapper .gfield_description.validation_message { display:none }
+
+
+/*===================================================================================================
+[Footer Form Styling]
+===================================================================================================*/
+.git .gform_wrapper { position:relative; }
+
+.footer-top .gform_wrapper .gform_footer { width:200px; margin:0; padding:0; position:absolute; top:43px; right:28px; }
+
+.git .gform_body li.first_name, .git .gform_body li.last_name, .git .gform_body li.business_email { width:26%; display:inline-block;}
+
+.git .gform_wrapper .top_label input.medium { width:calc(100% - 8px); border:none; line-height:30px; }
+
+.git .gform_body li.describe_option ul.gfield_radio li  { display:inline-block; margin:0 0 0 22px !important; }
+
+.git .gform_body li.describe_option ul.gfield_radio li:first-child { margin:0 !important; }
+
+.git .gform_body li.describe_option ul.gfield_radio li label { font-family: "Roboto Condensed",sans-serif; font-weight:400; text-transform:none; font-size:16px !important; max-width:100%; margin-left:10px; }
+
+.git .gform_body li.annual_process { width:26%; display:inline-block; }
+
+.git .gform_wrapper .top_label select.medium {
+	width:98%;
+	border:none;
+	line-height:40px;
+	padding:0 0 0 14px;
+	border-radius:6px;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	background:#e0e0e0 url(../images/footer_dropdown_arrow.png) no-repeat right center;
+	border:none;
+	font-size:16px !important;
+	color:#333333;
+}
+
+.git .gform_body li.company_name {
+	width:26%;
+	display:inline-block;
+}
+
+.git .gform_body li.job_title {
+	width:26%;
+	display:inline-block;
+}
+
+.git .gform_body li.phone_no {
+	width:26%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.git .gform_wrapper .top_label li.phone_no input.medium { width:98%; border:none; line-height:30px; }
+
+.git .gform_body li.interest_type {
+	width:63%;
+	display:inline-block;
+}
+
+.git .gform_body li.interest_type label.gfield_label {
+	vertical-align:top;
+	margin-top:-41px;
+}
+
+.git .gform_body li.interest_type div.ginput_container_checkbox { margin:0; }
+
+.git .gform_body li.interest_type div.ginput_container_checkbox ul {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.git .gform_body li.interest_type div.ginput_container_checkbox ul li label { text-transform:none !important; }
+
+
+.left-border { position:relative; }
+.left-border::before {
+    background: rgba(0, 0, 0, 0) url("../images/blue-line.png") repeat-x scroll 0 14px;
+    content: "";
+    height: 33px;
+    left: -98%;
+    position: absolute;
+    top: 2px;
+    width: 100%;
+}
+
+.footer-top .gform_wrapper .gfield_required { color:#FFF; }
+
+.eg-visa-now .uk-container {
+	//background: url(../images/eg-visa-now-line.svg) top center no-repeat;
+}
